@@ -36,7 +36,7 @@ RUN sed -i 's/, socket.MSG_DONTWAIT//g' lib/ynl.py
 ## Use ##
 
 ```bash
-oc debug no/cnfde21.ptp.lab.eng.bos.redhat.com --image=quay.io/vgrinber/tools@sha256:b0b36d8f6fc7a8bb2d6e6eb7831061da3711ddbce422e4856df143a5b948011d
+oc debug no/cnfde21.ptp.lab.eng.bos.redhat.com --image=quay.io/vgrinber/tools@sha256:d953aeefb3cc23ffceddce168f754b251f98b2553b1e3fc85c6f3fa57b480951
 Starting pod/cnfde21ptplabengbosredhatcom-debug-tl8hl ...
 To use host binaries, run `chroot /host`
 Pod IP: 10.16.230.5

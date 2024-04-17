@@ -6,7 +6,7 @@ RUN make build
 FROM registry.redhat.io/rhel9/support-tools:latest
 WORKDIR /
 USER root
-RUN dnf install -y git python3 python3-pip && \
+RUN dnf install -y git python3 python3-pip lshw && \
     git clone --depth=1 https://github.com/torvalds/linux.git && \
     pip install -r /linux/tools/net/ynl/requirements.txt && \
     dnf remove -y git

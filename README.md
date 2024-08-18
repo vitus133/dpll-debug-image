@@ -1,3 +1,7 @@
+# Warning: this repository is archived #
+
+Build dpll test container here: https://github.com/vitus133/go-dpll
+
 # Netlink DPLL test container #
 
 This repo helps to build a container image for netlink DPLL debug
